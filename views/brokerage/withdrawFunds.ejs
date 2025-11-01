@@ -1,0 +1,8 @@
+<% layout("/layouts/Dashboard")%>
+<form action="/withF" method="post" class="needs-validation" novalidate>
+  <div class="mb-3 mt-3">
+    <label for="funds-needed" class="form-label">Enter amount of funds to withdraw</label>
+    <input type="number" class="form-control" id="funds" aria-describedby="fundsHelp" name="withFunds" required>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>

@@ -1,0 +1,37 @@
+<% layout("/layouts/Dashboard")%>
+<div class="main-dash">
+    <div class="greet-user">
+        <h5>Hi, <%=currUser.username%>!</h5>
+    </div>
+    <div class="equity">
+        <div class="equity-text">
+            <i class="fa-regular fa-clock"></i>&nbsp;Equity
+        </div>
+        <div class="equity-data">
+            <div class="margin">
+                <h2>3.74k</h2>
+                <p>Margin available</p>
+            </div>
+            <div class="used-margin">
+                <p>Margin used : 0</p>
+                <p>opening balance : 3.74k</p>
+            </div>
+        </div>
+    </div>
+    <div class="equity">
+        <div class="equity-text">
+            <i class="fa-solid fa-wallet"></i>&nbsp;Holdings
+        </div>
+        <div class="equity-data">
+            <div class="margin">
+                <h2 class="gr-hold">1.55k</h2>
+                <p>P & L</p>
+            </div>
+            <div class="used-margin">
+                <p>Current value : 31.43k</p>
+                <p>Investment : 29.88k</p>
+            </div>
+        </div>
+    </div>
+</div>
+

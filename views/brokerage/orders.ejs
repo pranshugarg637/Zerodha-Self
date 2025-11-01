@@ -1,0 +1,19 @@
+<% layout("/layouts/dashboard")%>
+<div class="main-orders">
+    <div class="purchaseS">
+        <form method="get" action="/makeOrder">
+            <button type="submit" class="btn btn-primary">Purchase Stocks</button>
+        </form>
+    </div><br>
+    <div>
+        <%for(order of orders){%>
+            <%if(currUser._id.equals(order.purchaser._id)){%>
+                <div class="purOrder">
+                    <p><b>Stock Name</b> : <%=order.name%></p>
+                    <p><b>Quantity ordered</b> : <%=order.qty%></p>
+                    <p><b>Price</b> : <%=order.price%></p>
+                </div>
+            <%}%>
+        <%}%>
+    </div>
+</div>

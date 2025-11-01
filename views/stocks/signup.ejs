@@ -1,0 +1,29 @@
+<% layout("/layouts/boilerplate")%>
+<div class="row mt-3">
+    <h3>SignUp on Zerodha</h3><br><br>
+    <div class="col-6">
+        <form method="post" action="/signup" novalidate class="needs-validation">
+            <div>
+                <label for="username" class="form-label">Username</label>
+                <input id="username" type="text" name="user[username]" class="form-control" required>
+                <div class="valid-feedback">Username looks good</div>
+                <div class="invalid-feedback">Pls enter a username</div>
+            </div>
+            <br>
+            <div>
+                <label for="email" class="form-label">Email</label>
+                <input id="email" type="email" name="user[email]" class="form-control" required>
+                <div class="invalid-feedback">Pls enter a valid email-id</div>
+                <div class="valid-feedback">Email-id entered</div>
+            </div><br>
+            <div>
+                <label for="password" class="form-label">Password</label>
+                <input id="password" type="password" name="user[password]" class="form-control" required>
+                <div class="invalid-feedback">Pls enter a password(strong)</div>
+                <div class="valid-feedback">Password entered</div>
+            </div><br><br>
+            <button class="btn btn-success">SignUp</button>
+        </form>
+    </div>
+</div>
+<br><br><br><br><br><br></br><br><br>

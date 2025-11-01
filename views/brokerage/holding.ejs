@@ -1,0 +1,23 @@
+<% layout("/layouts/Dashboard")%>
+<table class="table mt-3">
+  <thead>
+    <tr>
+      <th scope="col">Instrument</th>
+      <th scope="col">Qty</th>
+      <th scope="col">Avg. cost</th>
+      <th scope="col">Price</th>
+      <th scope="col">Cost</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% holdings.forEach(h => { %>
+        <tr>
+            <td><%= h.instrument %></td>
+            <td><%= h.qty %></td>
+            <td><%= h.avg %></td>
+            <td><%= h.price %></td>
+            <td><%= h.cost %></td>
+        </tr>
+    <% }) %>
+  </tbody>
+</table>

@@ -1,0 +1,456 @@
+/* better way to use bootstrap styling. like row -> col-6 col-6 */
+
+.navbar{
+    min-height:5rem;
+    background-color: white;
+    border-bottom:1px solid rgb(217, 213, 213);
+}
+.logo-z{
+    width:120px;
+    max-width:40vh;
+    margin-left:5rem;
+}
+.landing img{
+    max-width:65% !important;
+    display:block;
+    margin:4rem auto 0 auto;
+}
+.outer-home{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.invest{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:5rem;
+    margin-bottom:6rem;
+}
+.invest-details{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:2rem;
+}
+.invest-details h2{
+    color:#4B4B4D;
+}
+.invest-details p{
+    font-size:1.35rem;
+}
+.sign-up-btn{
+    font-size:1.4rem !important;
+    background-color:#387ED1 !important;
+}
+.content{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:9rem;
+}
+.content-text{
+    width:60%;
+}
+.content-text-para h2{
+    color:#4B4B4D;
+    font-size:1.5rem;
+    margin-top:4rem;
+}
+.trust{
+    color:black !important;
+    font-size:160%;
+}
+.img-eco{
+    max-width:100%;
+}
+.content-text-para p{
+    font-size: 1rem !important;
+}
+@media(max-width:768px){
+    .content{
+        flex-wrap: wrap;
+    }
+    .content-text{
+        width:80%;
+    }
+}
+.pric{
+    text-decoration: none;
+}
+.right-arrow{
+    margin-top:5rem !important;
+}
+.pricing{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-bottom:8rem;
+}
+.price-images{
+    display:flex;
+    margin-left:4rem;
+}
+.price-images img{
+    width:50%;
+}
+.ind-primg{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.ind-primg{
+    font-size:100%;
+}
+@media(max-width:767px){
+    .ind-primg{
+        flex-wrap: wrap;
+        margin-right:2rem;
+    }
+}
+@media(max-width:445px){
+    .price-text{
+        margin-left:6rem;
+    }
+}
+.varsity{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.varsity-text{
+    margin-left:5rem;
+}
+@media(max-width:703px){
+    .varsity{
+        flex-wrap: wrap;
+    }
+    .varsity-text{
+        margin-top: 4rem;
+    }
+}
+.outer-home{
+    margin-bottom:5rem;
+}
+.upper-footer{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom:6rem;
+    margin-top:3rem;
+    flex-wrap: wrap;
+}
+.full-footer{
+    border-top:1px solid rgb(217, 213, 213);
+    width:100%;
+    background-color: whitesmoke;
+    padding-bottom:3rem;
+    /* height:100vh; */
+}
+.social-media{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.socio{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.socio i{
+    font-size:1.2rem;
+    margin-right:2rem;
+    color:#666666;
+}
+.logo-f{
+    margin-bottom:1rem !important;
+}
+.social-media p{
+    color:#666666;
+}
+.account{
+    display:flex;
+    flex-direction: column;
+}
+.account a{
+    text-decoration: none;
+    color:#666666;
+    margin-bottom:1.4rem;
+}
+.full-about{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about-one{
+    margin-top:5rem;
+    font-size:1.6rem;
+    font-weight:500;
+    margin-bottom:5.4rem;
+    color:#424242;
+}
+.about-two{
+    border-top:1px solid rgb(217, 213, 213);
+    display:flex;
+    align-items: center;
+    padding-top:5rem;
+    padding-bottom: 9rem;
+    font-size:1.1rem;
+}
+.people{
+    color:#424242;
+}
+.first-about-two{
+    margin-right:3rem;
+}
+.founder{
+    width:20rem;
+    height:20rem;
+    border-radius:50%;
+}
+.about-three{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+.founder-d{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.found{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.found-text{
+    font-size:1.03rem;
+    margin-left:5rem;
+    color:#424242;
+}
+.product-start{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top:7rem;
+    padding-bottom:7rem;
+}
+.product-start h3{
+    font-weight:500;
+    color:#424242;
+}
+.product-start h4{
+    color:#666666;
+    font-weight:300;
+}
+.outer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product-d{
+    padding-top:3rem;
+    border-top:1px solid #eee;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding-bottom:4rem;
+}
+.product-text{
+    margin-left:5rem;
+}
+.product-text h3{
+    color:#424242;
+}
+.product-text p{
+    font-size:1.2rem;
+}
+@media(max-width:992px){
+    .product-d{
+        flex-wrap:wrap;
+    }
+}
+.kite-connect{
+    margin-right:5rem;
+}
+.outer-pricing{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pricing-imgs{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:4rem 0;
+}
+.pricing-imgs div{
+    margin-right:3rem;
+}
+.tags{
+    display:flex;
+    font-size:2rem;
+}
+.tags p{
+    margin-right:4rem;
+    color:#387ED1;
+}
+.currency{
+    color:#424242 !important;
+    border-bottom:2px solid #387ED1;
+}
+.third-pricing{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    padding-top:5rem;
+    padding-bottom: 5rem;
+}
+.pricing-start{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:5rem 0;
+}
+.pricing-start h3{
+    color:#424242;
+}
+.pricing-start h5{
+    color:#666666;
+}
+.twenty{
+    width:60%;
+}
+.loginn{
+    margin-bottom:20rem;
+}
+.portfolio{
+    font-weight:bold !important;
+}
+.dash{
+    min-height:120vh;
+}
+.greet-user{
+    padding:3rem;
+    border-bottom:1px solid #4B4B4D;
+}
+.equity{
+    padding:2rem;
+    display:flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    border-bottom:1px solid #4B4B4D;
+}
+.equity-data{
+    display:flex;
+    margin-top:2rem;
+    padding-left:5rem;
+}
+.margin{
+    margin-right:4rem;
+}
+.used-margin{
+    margin-top:0.3rem;
+}
+.gr-hold{
+    color:rgb(76, 183, 76);
+}
+.funds{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.equity-text-new{
+    margin-bottom:2rem;
+    font-size: 1.5rem;
+}
+.funds-table{
+    padding:2rem;
+    width:80%;
+    border:1px solid #424242;
+}
+.main-funds{
+    padding:2rem;
+}
+.line{
+    border-bottom: 1px solid #e9dede;
+    margin-bottom:1.01rem;
+}
+.blue-c{
+    color:#387ED1;
+    font-weight: bold;
+}
+.size{
+    font-size:1.4rem;
+}
+.main-wl{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.niftS{
+    display:flex;
+    width:100%;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #e0c5c5;
+}
+.niftS p{
+    margin-right:4rem;
+    margin-top:3rem;
+}
+.search{
+    display:flex;
+    justify-content: center;
+    width:100%;
+    padding:1.2rem;
+    border-bottom: 1px solid #e0c5c5;
+}
+.lists{
+    width:100%;
+}
+.list-data{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e0c5c5;
+}
+.nam{
+    padding-left:7rem;
+}
+.am{
+    padding-right:6rem;
+}
+.downRate{
+    color:red;
+}
+.upRate{
+    color:rgb(18, 201, 18);
+}
+.purchaseS{
+    margin-left:30rem;
+    padding-top:3rem;
+}
+.purOrder{
+    height:10rem;
+    width:100%;
+    border:1.2px solid #e0c5c5;
+    padding:1.5rem;
+    margin-bottom:2rem;
+}

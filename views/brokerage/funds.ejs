@@ -1,0 +1,63 @@
+<% layout("/layouts/Dashboard")%>
+<div class="main-funds">
+    <div class="equity-text-new">
+        <i class="fa-regular fa-clock"></i>&nbsp;Equity
+    </div>
+    <div class="funds-table">
+        <div class="funds">
+            <p>Available margin</p>
+            <p class="size blue-c"><%=currUser.fundsAv%></p>
+        </div>
+        <div class="funds">
+            <p>Used margin</p>
+            <p class="size"><%=currUser.fundsUsed%></p>
+        </div>
+        <div class="funds line">
+            <p>Available Cash</p>
+            <p class="size"><%=currUser.fundsAv%></p>
+        </div>
+        <div class="funds">
+            <p>Opening balance</p>
+            <p>4043.10</p>
+        </div>
+        <div class="funds">
+            <p>Payin</p>
+            <p>4064.00</p>
+        </div>
+        <div class="funds">
+            <p>SPAN</p>
+            <p>0.00</p>
+        </div>
+        <div class="funds">
+            <p>Delivery margin</p>
+            <p>0.00</p>
+        </div>
+        <div class="funds">
+            <p>Exposure</p>
+            <p>0.00</p>
+        </div>
+        <div class="funds line">
+            <p>Options premium</p>
+            <p>0.00</p>
+        </div>
+        <div class="funds">
+            <p>Collateral (Liquid funds)</p>
+            <p>0.00</p>
+        </div>
+        <div class="funds">
+            <p>Collateral (Equity)</p>
+            <p>0.00</p>
+        </div>
+        <div class="funds">
+            <p>Total Collateral</p>
+            <p>0.00</p>
+        </div>
+    </div>
+    <br>
+    <form method="get" action="/addFunds">
+        <button type="submit" class="btn btn-success addFunds">Add funds</button> &nbsp;&nbsp;
+    </form> <br>
+    <form method="get" action="/withF">
+        <button type="submit" class="btn btn-primary withdraw">Withdraw</button>
+    </form><br>
+</div>

@@ -1,0 +1,8 @@
+<% layout("/layouts/Dashboard")%>
+<form action="/addFunds" method="post" class="needs-validation" novalidate>
+  <div class="mb-3 mt-3">
+    <label for="funds-needed" class="form-label">Enter funds</label>
+    <input type="number" class="form-control" id="funds" aria-describedby="fundsHelp" name="newFunds" required>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
