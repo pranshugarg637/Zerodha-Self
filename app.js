@@ -114,6 +114,9 @@ app.use("/holdings",isLoggedIn,async(req,res)=>{
     const allHolding=await holdings.find()
     res.render("brokerage/holding",{holdings:allHolding});
 })
+app.get("/",(req,res)=>{
+    res.render("stocks/home");
+})
 app.get("/products",(req,res)=>{
     res.render("stocks/products");
 })
