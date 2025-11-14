@@ -4,7 +4,7 @@ if(process.env.NODE_ENV!="production"){
 const db_url=process.env.ATLASDB_URL;
 const express=require("express");
 const app=express();
-const port=3000;
+const port=process.env.PORT || 3000;
 app.set("view engine","ejs");
 const path=require("path");
 app.set("views",path.join(__dirname,"views"));
